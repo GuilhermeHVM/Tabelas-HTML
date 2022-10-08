@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title></title>
+		<meta charset="utf-8">
+
+	</head>
+
+	<body>
+
+		<!-- Tags usadas pra composição de tabelas "table", "tr", "th ou td" ("th" = Palavras de cabeçalho), ("td" palavras de corpo) -->
+
+		<table border="2" width="100%" > <!-- "border="2"" aplicação de borda com 2 pixels/ "width="100%"" difinir que a largura da tabela ocupe 100% da tela-->
+
+			<tr><!-- formar o conjuto da coluna-->
+
+				<th>Código1</th><!-- cabeçalho-->
+				<th>Unidades</th>
+				<th>Produto</th>
+				<th>Visual</th>
+				<th>Modelo</th>
+				<th>Preço</th>
+				<th>Mais detalhes</th>
+
+			</tr>
+
+			<tr align="center"><!-- "align" tag para modificar a localicalização dos elementos ("left"(esquerda); "center"(centro); "right"(direita) ) -->
+				
+				<td>001</td><!-- corpo-->
+				<td>30</td>
+				<td>Notebook</td>
+				<td>
+					<img src="imagens eletronicos/notebook samsung.jpg" width="200">
+				</td>
+				<td><strong>Samsung A23 </strong>- Portatil, 500GB, 4GB RAM.</td><!-- "strong" aplica negrito -->
+				<td><em>R$ 3.099,00</em></td><!-- "em" aplica itálico -->
+				<td><a href="">Clique aqui.</a></td><!-- tag "a" link -->
+
+			</tr>
+
+			<tr>
+				<td><center>002</center></td><!-- "center" centraliza o textos/imagen -->
+				<td><center>15</center></td>
+				<td><center>Celular</center></td>
+				<td><center>
+					<img src="imagens eletronicos/celular.jpg" width="200">
+				</center></td>
+				<td><strong>Samsung Turbo 3 </strong>- Gamer 5G WIFI, 128GB, Tela 4k.</td>
+				<td><center><em>R$ 1.699,00</em></center></td>
+				<td><center><a href="">Clique aqui.</a></center></td>
+			</tr>
+
+			<tr>
+				<td rowspan="2"><strong>Desconto:</strong></td><!-- "rowspan" prencher com o elemento selecionado um numero "x" de linha abaixo (da mesma coluna), tranformando todas as linhas em um quadrande só--> 
+				<td colspan="6">Cupom 1 - R$ 50,00</td><!-- "colspan" prencher com o elemento selecionado um numero "x" de colunas (da mesma linha), tranformando todas as colunas da mesma linha em um quadrande só-->
+			</tr>
+
+			<tr>
+				<td colspan="6">Cupom 2 - R$ 30,00</td>
+			</tr>
+
+			<tr>
+				<td><strong>TOTAL:</strong></td>
+				<td colspan="6">R$ <u>4.718,00</u></td>
+			</tr>
+
+		</table>
+
+	</body>
+
+</html>
